@@ -30,7 +30,6 @@ const CreatePost = () => {
           },
           body: JSON.stringify(form),
         });
-        console.log(await response.json());
         alert('Success');
         navigate('/');
       } catch (err) {
